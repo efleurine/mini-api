@@ -1,0 +1,25 @@
+{
+  "name": "mini-api",
+  "version": "0.0.1",
+  "description": "A functional routing layer for building JSON APIs with Zeit's Micro",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/efleurine/mini-api",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Emmanuel Fleurine",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^8.0.4",
+    "path-match": "^1.2.4"
+  },
+  "devDependencies": {
+    "eslint": "4.6.0",
+    "eslint-config-airbnb-base": "12.0.0",
+    "eslint-plugin-import": "2.7.0"
+  }
+}
